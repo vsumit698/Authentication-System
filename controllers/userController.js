@@ -129,6 +129,8 @@ module.exports.setupForgotPassword = async function(req,res){
         console.log("error in Server Occured",error);
     }
 }
+
+// function to generate random password
 function getRandomPassword(){
     var password = "";
     for(let i=0;5>i;i++){
