@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="/css/home.css">
+<div>
+    <h1> Welcome To Authentication </h1>
+    <div id="home-section">
+        <% if(locals.user){ %>
+            <h2> Hey <%= user.name %> !</h2>
+        <% } %>
+    </div>
+    
+</div>
